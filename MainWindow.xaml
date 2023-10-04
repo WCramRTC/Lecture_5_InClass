@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:Lecture_5_InClass"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="400,154,0,0" VerticalAlignment="Top"/>
+    <Canvas>
+        <Label Content="Your Name" Canvas.Left="187" Canvas.Top="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" Canvas.Left="187" TextWrapping="Wrap" Canvas.Top="103" Width="206" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="btnContinue" Content="Continue" Canvas.Left="187" Canvas.Top="299" Height="32" Width="206" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnContinue_Click"/>
 
-    </Grid>
+    </Canvas>
 </Window>
